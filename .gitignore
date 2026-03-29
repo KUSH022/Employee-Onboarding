@@ -10,9 +10,11 @@ env/
 
 # Data & Privacy
 data/chats/
-data/employees/
 data/policy.pdf
 data/*.json
+
+# Explicitly allow the employee database
+!data/employees/employees.csv
 
 # Streamlit logs/cache
 .streamlit/
