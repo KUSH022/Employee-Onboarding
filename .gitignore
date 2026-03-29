@@ -1,0 +1,23 @@
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Sensitive Configuration
+.env
+
+# Data & Privacy
+data/chats/
+data/employees/
+data/policy.pdf
+data/*.json
+
+# Streamlit logs/cache
+.streamlit/
+! .streamlit/config.toml
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+streamlit
+pandas
+reportlab
+httpx
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+faiss-cpu
+sentence-transformers
+pypdf
+pdfplumber
