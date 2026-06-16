@@ -3,7 +3,7 @@ import streamlit as st
 from auth import login_page, logout
 from chat_manager import load_chats, create_new_chat, delete_chat, update_chat_messages, get_chat_by_id
 from rag_pipeline import RAGPipeline
-from utils import show_toast, display_chat_message, inject_autoscroll, show_typing_indicator
+from utils import show_toast, display_chat_message, inject_autoscroll
 
 # ------------------ SETUP ------------------
 st.set_page_config(
